@@ -117,5 +117,4 @@ export default process.env.SENTRY_DSN && process.env.SENTRY_AUTH_TOKEN
       project: process.env.SENTRY_PROJECT,
       authToken: process.env.SENTRY_AUTH_TOKEN,
       widenClientFileUpload: true,
-    })
-  : nextConfig;
+    });

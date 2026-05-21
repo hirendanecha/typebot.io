@@ -4,7 +4,7 @@
     "./*": "./src/*.ts"
   },
   "scripts": {
-    "dev": "inngest-cli dev"
+    "dev": "node api.js && inngest-cli dev"
   },
   "dependencies": {
     "inngest": "^3.45.1",

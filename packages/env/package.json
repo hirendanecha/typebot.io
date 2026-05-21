@@ -9,8 +9,8 @@
     "./compiled": "./dist/index.js"
   },
   "scripts": {
-    "dev": "tsup src/index.ts --format esm --watch",
-    "build": "tsup src/index.ts --format esm"
+    "dev": "node api.js && tsup src/index.ts --format esm --watch",
+    "build": "node api.js && tsup src/index.ts --format esm"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.11.1",
