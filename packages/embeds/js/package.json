@@ -12,8 +12,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "node api.js && tsup --watch",
-    "build": "node api.js && tsup"
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "devDependencies": {
     "@ai-sdk/ui-utils": "^1.2.11",

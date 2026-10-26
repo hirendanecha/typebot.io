@@ -2,8 +2,8 @@
   "name": "stories",
   "type": "module",
   "scripts": {
-    "dev": "node api.js && ladle serve -p 3006",
-    "build": "node api.js && ladle build"
+    "dev": "ladle serve -p 3006",
+    "build": "ladle build"
   },
   "dependencies": {
     "@ladle/react": "^5.0.1",

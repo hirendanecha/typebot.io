@@ -2,8 +2,8 @@
   "name": "docs",
   "private": true,
   "scripts": {
-    "dev": "node api.js && mintlify dev --port 3004",
-    "build": "node api.js && bun check-broken-links",
+    "dev": "mintlify dev --port 3004",
+    "build": "bun check-broken-links",
     "check-broken-links": "mintlify broken-links",
     "api:generate": "dotenv -e ./.env -e ../../.env -- tsx --tsconfig ../builder/tsconfig.json ../builder/src/helpers/server/generateOpenApi.ts"
   },

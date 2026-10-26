@@ -17,8 +17,8 @@
     }
   },
   "scripts": {
-    "dev": "node api.js && tsup --watch",
-    "build": "node api.js && tsup"
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "dependencies": {
     "react": "^19.2.3",

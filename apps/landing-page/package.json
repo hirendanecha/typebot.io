@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "node api.js && dotenv -e ./.env -e ../../.env -- vite dev --port 3003",
-    "build": "node api.js && bun check-broken-links && dotenv -e ./.env -e ../../.env -- vite build",
+    "dev": "dotenv -e ./.env -e ../../.env -- vite dev --port 3003",
+    "build": "bun check-broken-links && dotenv -e ./.env -e ../../.env -- vite build",
     "check-broken-links": "mdx-local-link-checker content public '*/(index.mdx|blog|about|pricing?isTiersModalOpened=true)'"
   },
   "dependencies": {
